@@ -1,0 +1,118 @@
+
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+	body{
+		background: url('photo.jpeg') no-repeat center center fixed;
+		overflow-x: hidden;
+		background-size: cover;
+	-webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+
+	}
+	
+	h2{
+		
+		text-align: center;
+		font-weight: bold;
+		padding: 10px;
+		color: #fff;
+	}
+	form{
+		height: auto;
+		width: 450px;
+		margin:auto;
+		padding: 60px 0px;
+		margin-top: 60px;
+		background-color:rgba(0,0,0,0.7);
+		 -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        transition: 1s;
+	}
+	.form-group{
+		margin: 20px 0;
+	}
+	input[type="text"]{
+		width: 80%;
+		height: 35px;
+		padding: 10px;
+		padding-left: 15px;
+		height: auto;
+		border-top: 0;
+		border-right: 0;
+		border-left: 0;
+		border-bottom: 1px solid #fff;
+		color: #333;
+		font-weight:700;
+		box-sizing: border-box;
+	}
+	input[type="password"]{
+		width: 80%;
+		height: 35px;
+		padding: 10px;
+		padding-left: 15px;
+		height: auto;
+		border-top: 0;
+		border-right: 0;
+		border-left: 0;
+		border-bottom: 1px solid #fff;
+		color: #333;
+		font-weight:700;
+		box-sizing: border-box;
+
+	}
+	button[type="button"]{
+		width: 40%;
+		padding: 10px 0px;
+		color: #fff;
+		margin: 10px;
+		font-weight: bold;
+		font-size: 18px;
+		}
+@media(max-width: 544px){
+	form{
+		height: auto;
+		width: 100%;
+		padding: 40px 0px;
+		margin-top: 80px;
+		
+	}
+
+}
+
+		
+</style>
+<body>
+<div class="container text-center">
+
+<form>
+<h2>Login form</h2>
+<div class="form-group">
+<input type="text" class="group-control" placeholder="Enter your username">
+</div>
+<div class="form-group">
+<input type="password" class="group-control" placeholder="Enter your password">
+</div>
+<div class="form-group">
+<button type="button" class="btn btn-success">Submit</button>
+</div>
+</form>
+</div>
+
+</body>
+</html>
